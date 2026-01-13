@@ -22,7 +22,7 @@ function search() {
             document.getElementById("weather-icon").src = "Images/sun.png";
         }else if(response.weather[0].icon == "03n" || response.weather[0].icon == "03d") {
             document.getElementById("weather-icon").src = "Images/scattered-clouds.png";
-        }
+        }else
 
         document.getElementById("wind").innerHTML = response.wind.speed + " Km/h";
         document.getElementById("humidity").innerHTML = response.main.humidity + " %";
