@@ -14,7 +14,7 @@ function search() {
         console.log(response);
 
         document.getElementById("city-name").innerHTML = response.name;
-        document.getElementById("temp").innerHTML = response.main.temp;
+        document.getElementById("temp").innerHTML = ((response.main.temp)-273.15).toFixed(0) + "°C";
 
         if(response.weather[0].icon == "04n" || response.weather[0].icon == "04d") {
             document.getElementById("weather-icon").src = "Images/broken-clouds.png";
@@ -37,7 +37,7 @@ function search() {
         }
 
         document.getElementById("wind").innerHTML = response.wind.speed + " Km/h";
-        document.getElementById("humidity").innerHTML = response.main.humidity + " %";
+        document.getElementById("humidity").innerHTML = response.main.humidity + "%";
     }
 }
 
