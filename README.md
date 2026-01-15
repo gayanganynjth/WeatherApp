@@ -1,0 +1,13 @@
+# Structure
+
+Small weather searching app using HTML, JavaScript, CSS and also used free weather APi https://openweathermap.org/api for fetch data.
+
+# View
+
+![user_view_one](Images/Screenshot%202026-01-15%20194222.png)
+![user_view_two](Images/Screenshot%202026-01-15%20194334.png)<br>
+![user_view_three](Images/Screenshot%202026-01-15%20194513.png)
+
+![js](Assets/java-script.png)
+![css](Assets/css.png)
+![html](Assets/html.png)
