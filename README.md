@@ -1,6 +1,6 @@
 # Structure
 
-Small weather searching app using HTML, JavaScript, CSS and also used free weather https://openweathermap.org/api APi for fetch data.
+Small weather searching app using HTML, JavaScript, CSS and also used free weather APi https://openweathermap.org/api for fetch data.
 
 # View
 
